@@ -1,7 +1,29 @@
 aid: zeromark
 name: ZeroMark
-description: ZeroMark is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ZeroMark is a defense-technology company building an AI-powered targeting system for
+  counter-drone (counter-UAS) defense. Its bolt-on hardware and software components attach to
+  existing weapons, platforms, and sensing systems to detect, track, and neutralize small
+  drone threats in milliseconds while minimizing collateral damage. The product line spans
+  Apex (AI aim-assist for shoulder-mounted rifles), Vanguard (a precision system for
+  turret-mounted and vehicle platforms effective against Group 1-3 drones), and Nexus (a
+  command-and-control software layer that integrates deployments into shared targeting and
+  battlespace-awareness environments). ZeroMark was surfaced as a portfolio company of a16z
+  and added to the API Evangelist network. As of this enrichment pass the company publishes
+  no public API, SDK, developer documentation, or open-source presence; its Nexus C2
+  integration is delivered through defense procurement rather than a public developer program.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://zeromark.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/zeromark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defense
+- Counter-Drone
+- Counter-UAS
+- Artificial Intelligence
+- Targeting
+- Command and Control
+- Aerospace and Defense
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/zeromark-domain-security.yml
+- type: Website
+  url: https://zeromark.com
+- type: About
+  url: https://zeromark.com/about
+- type: Products
+  url: https://zeromark.com/products
+- type: News
+  url: https://zeromark.com/news
+- type: Careers
+  url: https://zeromark.com/careers
+- type: Contact
+  url: https://zeromark.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

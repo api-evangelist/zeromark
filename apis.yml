@@ -44,7 +44,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Defense
@@ -57,6 +57,8 @@ tags:
 - Hardware
 apis: []
 common:
+- url: https://www.zeromark.com/news
+  type: Blog
 - type: DomainSecurity
   url: security/zeromark-domain-security.yml
 - type: Website
